@@ -7,7 +7,8 @@ DHT dht(DHTPIN, DHTTYPE);
  
 
 void setup() {
-  // put your setup code here, to run once:
+  // put your setup code here, to run once:  
+ //HELLO 
   Serial.begin(9600);
   Serial.println("DHT Test Successful!");
   dht.begin();
